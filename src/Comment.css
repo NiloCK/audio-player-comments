@@ -1,0 +1,29 @@
+.comment-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.comment-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-timestamp {
+    color: #888;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.comment-author, .comment-content, .comment-timestamp {
+  margin-bottom: 5px;
+  align-content: left;
+}
+
+.comment-replies {
+  margin-top: 10px;
+  border-left: 2px solid #eee;
+  padding-left: 10px;
+}
